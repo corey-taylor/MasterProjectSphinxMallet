@@ -1,6 +1,6 @@
 # Master Project - Sphinx+Mallet
 
-The purpose of this code is to use words and topics both from a corpus and from a speech sample to progressively adapt the language model of the speech recogniser, Sphinx. 
+The purpose of this code is to use words and topics both from a corpus and from a speech sample to progressively adapt the language model of a speech recogniser, Sphinx. 
 
 Don't think MALLET or Sphinx4 were on Github at the time so this is code is also well out of date. This is, again, purely for posterity/potential employers.
 
