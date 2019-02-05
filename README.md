@@ -1,1 +1,2 @@
-# MasterProjectSphinxMallet
+# Master Project - Sphinx+Mallet
+
