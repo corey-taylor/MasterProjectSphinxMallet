@@ -1,0 +1,31 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/norm \
+	-accumdir /home/corey/workspace/MyMastersProject/resources/training/database/bwaccumdir/database_buff_1 \
+	-fullvar no \
+	-varfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalvar 
+
+ERROR: "cmd_ln.c", line 369: Unknown argument type: 32
+Arguments list definition:
+[NAME]		[DEFLT]	[DESCR]
+-accumdir		One or more paths containing reestimation sums from bw
+-constE		3.0	Constant E for calculating constant D
+-dcountfn		Gaussian density count file to produce
+-example	no	Shows example of how to use the tool
+-fullvar	no	Variances are full covariance matrices
+-help		no	Shows the usage of the tool
+-inmeanfn		Use mean from this file if never observed
+-inmixwfn		Use mixing weights from this file if never observed
+-invarfn		Use var from this file if never observed
+-meanfn			Gaussian density mean file to produce (if any)
+-mixwfn			Mixing weight file to produce (if any)
+-mmie		no	MMIE training parameter update
+-oaccumdir		Path to contain the overall reestimation sums
+-regmatfn		MLLR regression matrices file to produce (if any)
+-tiedvar	no	Tie all covariances together
+-tmatfn			Transition prob. matrix file to produce (if any)
+-varfn			Gaussian density variance file to produce (if any)
+
+ERROR: "cmd_ln.c", line 575: Bad argument value for -accumdir: /home/corey/workspace/MyMastersProject/resources/training/database/bwaccumdir/database_buff_1
+ERROR: "cmd_ln.c", line 644: cmd_ln_parse_r failed
+ERROR: "cmd_ln.c", line 693: cmd_ln_parse failed, forced exit
+Sun Oct 27 12:53:16 2013

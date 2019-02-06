@@ -1,0 +1,53 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/init_gau \
+	-meanfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalmean \
+	-ctlfn /home/corey/workspace/MyMastersProject/resources/training/database/etc/database_train.fileids \
+	-part 1 \
+	-npart 1 \
+	-cepdir /home/corey/workspace/MyMastersProject/resources/training/database/feat \
+	-cepext mfc \
+	-accumdir /home/corey/workspace/MyMastersProject/resources/training/database/bwaccumdir/database_buff_1 \
+	-agc none \
+	-cmn current \
+	-varnorm no \
+	-feat 1s_c_d_dd \
+	-ceplen 13 \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			/home/corey/workspace/MyMastersProject/resources/training/database/bwaccumdir/database_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				/home/corey/workspace/MyMastersProject/resources/training/database/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		current		current
+-cmninit	8.0		8.0
+-ctlfn				/home/corey/workspace/MyMastersProject/resources/training/database/etc/database_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalmean
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(849): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(142): mean[0]= 12.00, mean[1..12]= 0.0
+/usr/local/libexec/sphinxtrain/init_gau: symbol lookup error: /usr/local/libexec/sphinxtrain/init_gau: undefined symbol: lineiter_start_clean
+Sun Oct 27 12:53:16 2013

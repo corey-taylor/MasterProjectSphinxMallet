@@ -1,0 +1,23 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/mk_flat \
+	-moddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef \
+	-topo /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.topology \
+	-mixwfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/mixture_weights \
+	-tmatfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/transition_matrices \
+	-nstream 1 \
+	-ndensity 1 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/mixture_weights
+-moddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+-ndensity	256	1
+-nstream	4	1
+-tmatfn			/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/transition_matrices
+-topo			/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.topology
+
+SYSTEM_ERROR: "model_def_io.c", line 412: Unable to open /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef for reading; No such file or directory
+main.c(83): Reading model definition file /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+Sun Oct 27 12:53:16 2013

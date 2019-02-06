@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building dmp....."
+./sphinx_lm_convert -i input.lm -o model.dmp
+echo "Done."

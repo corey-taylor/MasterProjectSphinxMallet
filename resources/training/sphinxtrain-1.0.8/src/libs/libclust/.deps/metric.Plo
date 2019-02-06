@@ -1,0 +1,12 @@
+metric.lo: metric.c ../../../include/s3/metric.h \
+ /home/corey/Downloads/sphinxtrain-1.0.8/../sphinxbase-0.8/include/sphinxbase/prim_type.h \
+ /home/corey/Downloads/sphinxtrain-1.0.8/../sphinxbase-0.8/include/sphinx_config.h \
+ ../../../include/s3/div.h
+
+../../../include/s3/metric.h:
+
+/home/corey/Downloads/sphinxtrain-1.0.8/../sphinxbase-0.8/include/sphinxbase/prim_type.h:
+
+/home/corey/Downloads/sphinxtrain-1.0.8/../sphinxbase-0.8/include/sphinx_config.h:
+
+../../../include/s3/div.h:

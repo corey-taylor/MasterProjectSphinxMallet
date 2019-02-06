@@ -1,0 +1,22 @@
+US English Language Model version 0.1
+
+This is a good trigram language model for a general transcription
+trained on a various open sources, for example Guttenberg [http://gutenberg.org] texts.
+
+It archives the good transcription performance on various types of
+texts, for example on the following tests sets the perplexities are:
+
+TED talks from IWSLT 2012 [http://hltc.cs.ust.hk/iwslt/index.php/evaluation-campaign/ted-task#ASRtrack]
+
+Perplexity: 158.3
+
+Lecture transcription task [http://trulymadlywordly.blogspot.com/2011/12/sphinx4-speech-recognition-results-for.html]
+
+Perplexity: 206.677
+
+Beside the transcription task, this model should be significantly better
+on conversational data like movie transcription.
+
+The language model was pruned with a beam 5e-9 to reduce the model. It
+can be pruned further if needed or a vocabulary could be reduced to fit
+the target domain

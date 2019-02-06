@@ -1,0 +1,1 @@
+UttID is ignored but file size mismatch between /home/corey/workspace/MyMastersProject/resources/training/database/etc/database_test.transcription7003 and /home/corey/workspace/MyMastersProject/resources/training/database/result/database.match7003 at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 58.

@@ -1,0 +1,19 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/tiestate \
+	-imoddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef \
+	-omoddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.200.mdef \
+	-treedir /home/corey/workspace/MyMastersProject/resources/training/database/trees/database.200 \
+	-psetfn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.tree_questions 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-imoddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef
+-omoddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.200.mdef
+-psetfn			/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.tree_questions
+-treedir		/home/corey/workspace/MyMastersProject/resources/training/database/trees/database.200
+
+SYSTEM_ERROR: "model_def_io.c", line 412: Unable to open /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef for reading; No such file or directory
+Sun Oct 27 12:53:19 2013

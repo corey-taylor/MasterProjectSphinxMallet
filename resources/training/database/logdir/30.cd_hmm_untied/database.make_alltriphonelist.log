@@ -1,0 +1,32 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/mk_mdef_gen \
+	-phnlstfn /home/corey/workspace/MyMastersProject/resources/training/database/etc/database.phone \
+	-dictfn /home/corey/workspace/MyMastersProject/resources/training/database/etc/database.dic \
+	-fdictfn /home/corey/workspace/MyMastersProject/resources/training/database/etc/database.filler \
+	-lsnfn /home/corey/workspace/MyMastersProject/resources/training/database/etc/database_train.transcription \
+	-ountiedmdef /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.untied.mdef \
+	-n_state_pm 3 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dictfn			/home/corey/workspace/MyMastersProject/resources/training/database/etc/database.dic
+-example	no	no
+-fdictfn		/home/corey/workspace/MyMastersProject/resources/training/database/etc/database.filler
+-help		no	no
+-ignorewpos	no	no
+-inCDmdef		
+-inCImdef		
+-lsnfn			/home/corey/workspace/MyMastersProject/resources/training/database/etc/database_train.transcription
+-maxtriphones	100000	100000
+-minocc		1	1
+-n_state_pm	3	3
+-oalltphnmdef		
+-ocimdef		
+-ocountfn		
+-ountiedmdef		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.untied.mdef
+-phnlstfn		/home/corey/workspace/MyMastersProject/resources/training/database/etc/database.phone
+-triphnlstfn		
+
+INFO: main.c(95): Will write untied mdef file /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.untied.mdef
+/usr/local/libexec/sphinxtrain/mk_mdef_gen: symbol lookup error: /usr/local/libexec/sphinxtrain/mk_mdef_gen: undefined symbol: lineiter_start_clean
+Sun Oct 27 12:53:18 2013

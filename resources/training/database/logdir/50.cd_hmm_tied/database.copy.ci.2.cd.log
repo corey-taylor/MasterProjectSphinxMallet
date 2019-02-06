@@ -1,0 +1,37 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/init_mixw \
+	-src_moddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef \
+	-src_ts2cbfn .cont. \
+	-src_mixwfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/mixture_weights \
+	-src_meanfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/means \
+	-src_varfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/variances \
+	-src_tmatfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/transition_matrices \
+	-dest_moddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.200.mdef \
+	-dest_ts2cbfn .cont. \
+	-dest_mixwfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/mixture_weights \
+	-dest_meanfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/means \
+	-dest_varfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/variances \
+	-dest_tmatfn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/transition_matrices \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/means
+-dest_mixwfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/mixture_weights
+-dest_moddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.200.mdef
+-dest_tmatfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/transition_matrices
+-dest_ts2cbfn		.cont.
+-dest_varfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.cd_cont_initial/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/means
+-src_mixwfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/mixture_weights
+-src_moddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+-src_tmatfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/transition_matrices
+-src_ts2cbfn		.cont.
+-src_varfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont/variances
+
+INFO: main.c(262): Reading src /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+SYSTEM_ERROR: "model_def_io.c", line 412: Unable to open /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef for reading; No such file or directory
+Sun Oct 27 12:53:19 2013

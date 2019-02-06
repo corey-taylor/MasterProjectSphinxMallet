@@ -1,0 +1,25 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/prunetree \
+	-itreedir /home/corey/workspace/MyMastersProject/resources/training/database/trees/database.unpruned \
+	-nseno 200 \
+	-otreedir /home/corey/workspace/MyMastersProject/resources/training/database/trees/database.200 \
+	-moddeffn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef \
+	-psetfn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.tree_questions \
+	-minocc 0 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-itreedir		/home/corey/workspace/MyMastersProject/resources/training/database/trees/database.unpruned
+-minocc		0.0	0.000000e+00
+-moddeffn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef
+-nseno			200
+-otreedir		/home/corey/workspace/MyMastersProject/resources/training/database/trees/database.200
+-psetfn			/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.tree_questions
+
+INFO: main.c(76): Reading: /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef
+SYSTEM_ERROR: "model_def_io.c", line 412: Unable to open /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.alltriphones.mdef for reading; No such file or directory
+FATAL_ERROR: "main.c", line 415: Initialization failed
+Sun Oct 27 12:53:19 2013

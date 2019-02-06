@@ -1,0 +1,29 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/mk_mdef_gen \
+	-phnlstfn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.phonelist \
+	-ocimdef /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef \
+	-n_state_pm 3 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dictfn			
+-example	no	no
+-fdictfn		
+-help		no	no
+-ignorewpos	no	no
+-inCDmdef		
+-inCImdef		
+-lsnfn			
+-maxtriphones	100000	100000
+-minocc		1	1
+-n_state_pm	3	3
+-oalltphnmdef		
+-ocimdef		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+-ocountfn		
+-ountiedmdef		
+-phnlstfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.phonelist
+-triphnlstfn		
+
+INFO: main.c(92): Will write CI mdef file /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.ci.mdef
+/usr/local/libexec/sphinxtrain/mk_mdef_gen: symbol lookup error: /usr/local/libexec/sphinxtrain/mk_mdef_gen: undefined symbol: lineiter_start_clean
+Sun Oct 27 12:53:16 2013

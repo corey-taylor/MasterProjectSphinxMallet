@@ -1,0 +1,26 @@
+INFO: cmd_ln.c(506): Parsing command line:
+/usr/local/libexec/sphinxtrain/cp_parm \
+	-cpopsfn /home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.cpmeanvar \
+	-ncbout 66 \
+	-igaufn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalvar \
+	-ogaufn /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/variances 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-cpopsfn		/home/corey/workspace/MyMastersProject/resources/training/database/model_architecture/database.cpmeanvar
+-example	no	no
+-help		no	no
+-ifullgaufn		
+-igaufn			/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalvar
+-imixwfn		
+-itmatfn		
+-ncbout			66
+-nmixwout		0
+-ntmatout		0
+-ofullgaufn		
+-ogaufn			/home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/variances
+-omixwfn		
+-otmatfn		
+
+SYSTEM_ERROR: "s3io.c", line 258: Unable to open /home/corey/workspace/MyMastersProject/resources/training/database/model_parameters/database.ci_cont_flatinitial/globalvar for reading; No such file or directory
+Sun Oct 27 12:53:16 2013
