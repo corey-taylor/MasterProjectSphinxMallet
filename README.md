@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# MasterProjectSphinxMallet
 =======
 # Master Project - Sphinx+Mallet
 
