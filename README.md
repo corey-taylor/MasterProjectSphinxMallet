@@ -1,4 +1,3 @@
-=======
 # Master Project - Sphinx+Mallet
 
 The purpose of this code is to use words and topics both from a corpus and from a speech sample to progressively adapt the language model of a speech recogniser, Sphinx. 
@@ -19,4 +18,3 @@ remote: error: File resources/LanguageModels/language_model.arpaformat.DMP is 12
 remote: error: File resources/model.dmp is 124.77 MB; this exceeds GitHub's file size limit of 100.00 MB
 remote: error: File resources/LanguageModels/HUB4.lm is 612.46 MB; this exceeds GitHub's file size limit of 100.00 MB
 remote: error: File resources/input.lm is 599.62 MB; this exceeds GitHub's file size limit of 100.00 MB
->>>>>>> 5d9ee0bffadb4910d02f5c8e3a2833e390b8bbcc
