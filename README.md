@@ -8,7 +8,7 @@ Don't think MALLET or Sphinx4 were on Github at the time so this is code is also
 
 A topic model is first trained on a corpus from the documents a user reads, writes, etc. Then, speech is read in by the recogniser. The transcript is added to the corpus and the topic model re-trained. The most probable topics are elucidated and most probable words extracted from these topics. The normalised probabilities of these words are then boosted in the language model prior to the next speech snippet being analysed.
 
-The point of the exercise was to see if progressive adaptation of the language model with topic information would result in a better guess at the phrases most likely spoken/read about by the user. Not a usable product but a reasonable proof-of-concept.
+The point of the exercise was to see if progressive adaptation of the language model with topic information would result in a better guess at the phrases most likely spoken/read about by the user. Not a usable product, proof-of-concept.
 
 Some files (language models, mainly) are not there because they're too big:
 
